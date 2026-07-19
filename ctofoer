@@ -1,0 +1,5 @@
+
+
+temp2=int(input())
+celsius=(temp2-32)//10
+print(celsius)
