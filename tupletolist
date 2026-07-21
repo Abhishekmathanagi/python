@@ -1,0 +1,6 @@
+tuple=(1,2,4,'a')
+print(type(tuple))
+print(tuple)
+ttol=list(tuple)
+print(type(ttol))
+print(ttol)

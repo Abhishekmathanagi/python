@@ -1,0 +1,5 @@
+name=input()
+rev=str()
+print(type(rev))
+rev="".join(reversed(name))
+print(rev)
