@@ -1,0 +1,4 @@
+->pandas is a fst,poweful,flexiable,and easy to use source data anallysis and manipulation tool ,built on top of the python programming langunage
+-> cv's,dataframe major componnents of pandas
+
+-->> series are made up of Lists  
