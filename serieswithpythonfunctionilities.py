@@ -1,0 +1,30 @@
+import pandas as pd
+import numpy as np
+
+marks=[56,65,76,87,90]
+subjects=['telugu','hindi','english','maths','science']
+
+o=pd.Series(marks)
+print(o)
+
+#custom series
+#additionally we can add name to corresponding series
+p=pd.Series(marks,index=subjects,name='abhishek marks')
+
+print(len(subjects))
+print(type(o))
+print(dir(marks))
+print(sorted(p))
+print(min(o))
+print(max(o))
+
+#typeconversations
+list=dict(o)
+print(type(list))
+#membership operator
+#looping
+for i in p,subjects:
+    print(i)
+    
+print(100-o)#broadcasting 
+
